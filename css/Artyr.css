@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts_A/MyriadPro-Regular.eot');
+    src: url('../fonts_A/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts_A/MyriadPro-Regular.woff2') format('woff2'),
+    url('../fonts_A/MyriadPro-Regular.woff') format('woff'),
+    url('../fonts_A/MyriadPro-Regular.ttf') format('truetype'),
+    url('../fonts_A/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts_A/Montserrat-MediumItalic.eot');
+    src: url('../fonts_A/Montserrat-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts_A/Montserrat-MediumItalic.woff2') format('woff2'),
+    url('../fonts_A/MediumItalic.woff') format('woff'),
+    url('../fonts_A/Montserrat-MediumItalic.ttf') format('truetype'),
+    url('../fonts_A/Montserrat-MediumItalic.svg#Montserrat-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts_A/Montserrat-Medium.eot');
+    src: url('../fonts_A/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts_A/Montserrat-Medium.woff2') format('woff2'),
+    url('../fonts_A/Montserrat-Medium.woff') format('woff'),
+    url('../fonts_A/Montserrat-Medium.ttf') format('truetype'),
+    url('../fonts_A/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+section {
+    background-color: #ffffff;
+}
+
+section .a_promo .a_text h2 {
+    font-family: Montserrat;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+section .a_promo .a_text p {
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+    color: #787878;
+    padding-top: 40px;
+}
+
+section .a_promo img {
+    display: block;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
